@@ -7,6 +7,11 @@
     text-align: center;
     background-size: cover;
 
+    img {
+        max-width: 500px;
+        max-height: 500px;
+    }
+
     .button {
         margin-top: 2vw;
         margin-bottom: 8px;
@@ -14,15 +19,11 @@
 
     &__content {
         max-width: 640px;
+        align-items: center;
 
         &__branding {
             max-width: 320px;
             margin: 0 auto 38px;
-
-            img {
-                max-width: 300px;
-                max-height: 300px;
-            }
         }
 
         .title--small {
