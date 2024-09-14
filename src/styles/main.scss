@@ -1,10 +1,8 @@
 @use 'variaveis';
 @use 'hero';
 @use 'shows';
-@use 'available-devices';
 @use 'faq';
 @use 'footer';
-@use 'header';
 
 @font-face {
     font-family: Avenir;
@@ -116,6 +114,7 @@ Body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    padding-top: 100px;
 
     img {
         max-width: 100%;
